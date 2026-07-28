@@ -5,8 +5,8 @@ Use esta checklist antes de publicar. No `README.md`, pesquise por `SEU_` para l
 ## Dados e links
 
 - [x] Username do GitHub configurado como `YanCarneosso` (inclusive nas URLs da animação).
-- [ ] `SEU_LINKEDIN` → URL completa do LinkedIn.
-- [ ] `SEU_EMAIL` → e-mail profissional; revise também o prefixo `mailto:`.
+- [x] LinkedIn configurado como `yan-costa-carneosso-b1343721b`.
+- [x] E-mail configurado como `yancarneosso@gmail.com`.
 - [ ] `SEU_ORCID` → URL pública do ORCID.
 - [ ] `SEU_LATTES` → URL pública do Currículo Lattes.
 - [ ] `SEU_PORTFOLIO` → URL do portfólio.
@@ -17,7 +17,8 @@ Use esta checklist antes de publicar. No `README.md`, pesquise por `SEU_` para l
 - [ ] `SEU_REPOSITORIO_VAULT_MIND` e `SEU_VAULT_MIND_DEMO`.
 - [ ] `SEU_REPOSITORIO_LEGAL_AI` e `SEU_LEGAL_AI_ARTIGO`.
 - [ ] `SEU_REPOSITORIO_DEFI` e `SEU_DEFI_ARTIGO_DEMO`.
-- [ ] `SEU_REPOSITORIO_FRAUDES` e `SEU_FRAUDES_DEMO`.
+- [x] Repositório de fraudes: `YanCarneosso/fraud-detection-ml`.
+- [ ] `SEU_FRAUDES_DEMO`.
 - [ ] `SEU_REPOSITORIO_HIDROGENIO` e `SEU_HIDROGENIO_ARTIGO`.
 - [ ] `SEU_REPOSITORIO_DADOS` e `SEU_DADOS_DEMO`.
 

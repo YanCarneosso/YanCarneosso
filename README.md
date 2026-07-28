@@ -26,8 +26,8 @@
 
 <!-- LINKS: substitua todos os placeholders SEU_ antes de publicar. -->
 <p align="center">
-  <a href="SEU_LINKEDIN"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:SEU_EMAIL"><img alt="E-mail" src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/yan-costa-carneosso-b1343721b/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:yancarneosso@gmail.com"><img alt="E-mail" src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="SEU_ORCID"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"></a>
   <a href="SEU_LATTES"><img alt="Currículo Lattes" src="https://img.shields.io/badge/Lattes-2456A6?style=for-the-badge"></a>
   <a href="SEU_PORTFOLIO"><img alt="Portfólio" src="https://img.shields.io/badge/Portf%C3%B3lio-6C63FF?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
@@ -138,7 +138,7 @@ Minha atuação combina pensamento científico, construção de sistemas e anál
       <p><strong>Problema:</strong> identificar eventos raros sem mascarar o desempenho das classes minoritárias.</p>
       <p><code>SMOTE</code> <code>Random Forest</code> <code>XGBoost</code> <code>Logistic Regression</code> <code>ROC/PR</code> <code>SHAP</code></p>
       <p><strong>Status:</strong> projeto aplicado</p>
-      <p><a href="SEU_REPOSITORIO_FRAUDES">Repositório</a> · <a href="SEU_FRAUDES_DEMO">Demo/Docs</a></p>
+      <p><a href="https://github.com/YanCarneosso/fraud-detection-ml">Repositório</a> · <a href="SEU_FRAUDES_DEMO">Demo/Docs</a></p>
     </td>
   </tr>
   <tr>
