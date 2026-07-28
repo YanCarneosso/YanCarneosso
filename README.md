@@ -57,20 +57,26 @@ Minha atuação combina pensamento científico, construção de sistemas e anál
 
 ## Áreas de atuação
 
-<p>
-  <img alt="Inteligência Artificial" src="https://img.shields.io/badge/Intelig%C3%AAncia_Artificial-6C63FF?style=flat-square">
-  <img alt="Machine Learning" src="https://img.shields.io/badge/Machine_Learning-3776AB?style=flat-square">
-  <img alt="Engenharia de Dados" src="https://img.shields.io/badge/Engenharia_de_Dados-00A6A6?style=flat-square">
-  <img alt="Ciência de Dados" src="https://img.shields.io/badge/Ci%C3%AAncia_de_Dados-2456A6?style=flat-square">
-  <img alt="Sistemas Inteligentes" src="https://img.shields.io/badge/Sistemas_Inteligentes-7B61FF?style=flat-square">
-  <img alt="RAG" src="https://img.shields.io/badge/RAG-00BFA6?style=flat-square">
-  <img alt="LLMs locais" src="https://img.shields.io/badge/LLMs_locais-111827?style=flat-square">
-  <img alt="Sistemas Multiagentes" src="https://img.shields.io/badge/Sistemas_Multiagentes-8B5CF6?style=flat-square">
-  <img alt="Otimização" src="https://img.shields.io/badge/Otimiza%C3%A7%C3%A3o-2563EB?style=flat-square">
-  <img alt="Power BI" src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=111">
-  <img alt="Automação" src="https://img.shields.io/badge/Automa%C3%A7%C3%A3o-10B981?style=flat-square">
-  <img alt="Pesquisa aplicada" src="https://img.shields.io/badge/Pesquisa_aplicada-0EA5E9?style=flat-square">
-</p>
+<table>
+  <tr>
+    <td align="center"><img alt="Inteligência Artificial" src="https://img.shields.io/badge/Intelig%C3%AAncia_Artificial-6C63FF?style=flat-square"></td>
+    <td align="center"><img alt="Machine Learning" src="https://img.shields.io/badge/Machine_Learning-3776AB?style=flat-square"></td>
+    <td align="center"><img alt="Engenharia de Dados" src="https://img.shields.io/badge/Engenharia_de_Dados-00A6A6?style=flat-square"></td>
+    <td align="center"><img alt="Ciência de Dados" src="https://img.shields.io/badge/Ci%C3%AAncia_de_Dados-2456A6?style=flat-square"></td>
+  </tr>
+  <tr>
+    <td align="center"><img alt="Sistemas Inteligentes" src="https://img.shields.io/badge/Sistemas_Inteligentes-7B61FF?style=flat-square"></td>
+    <td align="center"><img alt="RAG" src="https://img.shields.io/badge/RAG-00BFA6?style=flat-square"></td>
+    <td align="center"><img alt="LLMs locais" src="https://img.shields.io/badge/LLMs_locais-111827?style=flat-square"></td>
+    <td align="center"><img alt="Sistemas Multiagentes" src="https://img.shields.io/badge/Sistemas_Multiagentes-8B5CF6?style=flat-square"></td>
+  </tr>
+  <tr>
+    <td align="center"><img alt="Otimização" src="https://img.shields.io/badge/Otimiza%C3%A7%C3%A3o-2563EB?style=flat-square"></td>
+    <td align="center"><img alt="Power BI" src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=111"></td>
+    <td align="center"><img alt="Automação" src="https://img.shields.io/badge/Automa%C3%A7%C3%A3o-10B981?style=flat-square"></td>
+    <td align="center"><img alt="Pesquisa aplicada" src="https://img.shields.io/badge/Pesquisa_aplicada-0EA5E9?style=flat-square"></td>
+  </tr>
+</table>
 
 ## Tecnologias e ferramentas
 
@@ -83,17 +89,19 @@ Minha atuação combina pensamento científico, construção de sistemas e anál
 | **Inteligência Artificial** | Ollama · Open WebUI · RAG · LanceDB · embeddings · modelos locais · FastAPI · agentes de IA |
 | **Desenvolvimento & Infra** | Git · GitHub · Linux · Arch Linux · Docker · APIs REST · VS Code |
 
-<p>
-  <img alt="Python" title="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="38" height="38">
-  <img alt="Pandas" title="Pandas" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" width="38" height="38">
-  <img alt="NumPy" title="NumPy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" width="38" height="38">
-  <img alt="Scikit-learn" title="Scikit-learn" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" width="38" height="38">
-  <img alt="FastAPI" title="FastAPI" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" width="38" height="38">
-  <img alt="Docker" title="Docker" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="38" height="38">
-  <img alt="Git" title="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="38" height="38">
-  <img alt="Linux" title="Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="38" height="38">
-  <img alt="VS Code" title="VS Code" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="38" height="38">
-</p>
+<table>
+  <tr>
+    <td align="center" width="11%"><img alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="42" height="42"><br><sub>Python</sub></td>
+    <td align="center" width="11%"><img alt="Pandas" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" width="42" height="42"><br><sub>Pandas</sub></td>
+    <td align="center" width="11%"><img alt="NumPy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" width="42" height="42"><br><sub>NumPy</sub></td>
+    <td align="center" width="11%"><img alt="Scikit-learn" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" width="42" height="42"><br><sub>Scikit-learn</sub></td>
+    <td align="center" width="11%"><img alt="FastAPI" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" width="42" height="42"><br><sub>FastAPI</sub></td>
+    <td align="center" width="11%"><img alt="Docker" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="42" height="42"><br><sub>Docker</sub></td>
+    <td align="center" width="11%"><img alt="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="42" height="42"><br><sub>Git</sub></td>
+    <td align="center" width="11%"><img alt="Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="42" height="42"><br><sub>Linux</sub></td>
+    <td align="center" width="11%"><img alt="VS Code" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="42" height="42"><br><sub>VS Code</sub></td>
+  </tr>
+</table>
 
 <p align="center"><img src="./assets/dividers/neural-divider.svg" width="100%" alt="" role="presentation"></p>
 
