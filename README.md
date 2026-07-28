@@ -191,25 +191,18 @@ Minha atuação combina pensamento científico, construção de sistemas e anál
 
 ## Estatísticas do GitHub
 
-<!-- EXTERNO: username configurado como YanCarneosso. Se um serviço falhar, os links textuais continuam acessíveis. -->
+<!-- LOCAL: este card não depende de serviços externos de estatísticas. -->
 <p align="center">
   <a href="https://github.com/YanCarneosso">
-    <img height="165" alt="Estatísticas do GitHub de Yan Costa" src="https://github-readme-stats.vercel.app/api?username=YanCarneosso&show_icons=true&hide_border=true&theme=transparent&title_color=39d9f9&icon_color=8b7cff&text_color=8b949e">
-  </a>
-  <a href="https://github.com/YanCarneosso?tab=repositories">
-    <img height="165" alt="Linguagens mais usadas nos repositórios públicos" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YanCarneosso&layout=compact&hide_border=true&theme=transparent&title_color=39d9f9&text_color=8b949e">
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/YanCarneosso">
-    <img alt="Sequência de contribuições no GitHub" src="https://streak-stats.demolab.com?user=YanCarneosso&theme=transparent&hide_border=true&ring=39D9F9&fire=8B7CFF&currStreakLabel=39D9F9">
+    <img width="100%" alt="Atividade pública de Yan Costa no GitHub" src="./assets/github-activity.svg">
   </a>
 </p>
 
-<details>
-  <summary><strong>Sobre estes dados</strong></summary>
-  As imagens acima são resumos gerados a partir da atividade pública do GitHub e podem ficar temporariamente indisponíveis. Os repositórios continuam acessíveis diretamente pelo link do perfil; nenhuma métrica é preenchida manualmente.
-</details>
+| Explorar | Link oficial |
+|---|---|
+| 📂 Repositórios públicos | [Ver projetos e linguagens](https://github.com/YanCarneosso?tab=repositories) |
+| 🟩 Contribuições | [Ver calendário e atividade](https://github.com/YanCarneosso?tab=overview) |
+| 🧪 Projeto de fraude em ML | [Abrir repositório](https://github.com/YanCarneosso/fraud-detection-ml) |
 
 ## Contribuições
 

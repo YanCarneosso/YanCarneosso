@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-labelledby="title desc">
+  <title id="title">Atividade pública de Yan Costa no GitHub</title>
+  <desc id="desc">Resumo visual local com atalhos conceituais para repositórios, contribuições e projetos.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#08182d"/><stop offset=".52" stop-color="#171b42"/><stop offset="1" stop-color="#0b342e"/></linearGradient>
+    <linearGradient id="line" x1="0" x2="1"><stop stop-color="#48d7ff"/><stop offset=".5" stop-color="#8b7cff"/><stop offset="1" stop-color="#48e6a8"/></linearGradient>
+  </defs>
+  <rect width="1000" height="210" rx="22" fill="url(#bg)"/>
+  <text x="48" y="58" fill="#72e3ff" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" letter-spacing="3">GITHUB • ATIVIDADE PÚBLICA</text>
+  <text x="48" y="104" fill="#f4f8ff" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700">Código, pesquisa e experimentação</text>
+  <text x="48" y="143" fill="#aabbd4" font-family="Segoe UI,Arial,sans-serif" font-size="17">Repositórios e contribuições verificáveis diretamente no perfil</text>
+  <path d="M50 174h900" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+  <g fill="none" stroke-width="3">
+    <circle cx="755" cy="83" r="29" stroke="#48d7ff"/><path d="M740 84l11 11 20-25" stroke="#48e6a8"/>
+    <rect x="817" y="54" width="55" height="55" rx="12" stroke="#8b7cff"/><path d="M830 92l10-15 10 9 11-20" stroke="#a99cff"/>
+    <path d="M916 63h38v38h-38zM925 53v10m20-10v10m-20 38v10m20-10v10" stroke="#48e6a8"/>
+  </g>
+</svg>
