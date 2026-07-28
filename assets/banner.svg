@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Yan Costa — Inteligência Artificial, dados, automação e engenharia</title>
+  <desc id="desc">Banner tecnológico com uma rede de nós, órbitas e linhas de circuito.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#071426"/><stop offset=".52" stop-color="#101a3d"/><stop offset="1" stop-color="#071f25"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#48d7ff"/><stop offset=".52" stop-color="#8b7cff"/><stop offset="1" stop-color="#48e6a8"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#48d7ff" stop-opacity=".3"/><stop offset="1" stop-color="#48d7ff" stop-opacity="0"/></radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="945" cy="174" r="170" fill="url(#glow)"/>
+  <g fill="none" stroke="#60dfff" stroke-opacity=".25">
+    <path d="M0 78H180l28 28h112M0 294h130l34-34h170"/>
+    <path d="M744 54h84l36 36h238l38-38M772 300h92l28-28h308"/>
+    <ellipse cx="963" cy="178" rx="146" ry="64" transform="rotate(-18 963 178)"/>
+    <ellipse cx="963" cy="178" rx="116" ry="145" transform="rotate(52 963 178)"/>
+  </g>
+  <g stroke="url(#accent)" stroke-width="2" opacity=".85">
+    <path d="M830 220l76-100 78 58 81-85 54 108-92 65-121-26z" fill="none"/>
+    <path d="M906 120l0 120m78-62 43 88m-121-26 78-62m81-85-38 173" opacity=".55"/>
+  </g>
+  <g fill="#09172c" stroke="#62e5f7" stroke-width="3">
+    <circle cx="830" cy="220" r="8"/><circle cx="906" cy="120" r="10"/><circle cx="984" cy="178" r="12"/>
+    <circle cx="1065" cy="93" r="8"/><circle cx="1119" cy="201" r="10"/><circle cx="1027" cy="266" r="9"/><circle cx="906" cy="240" r="7"/>
+  </g>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="82" y="105" fill="#72e3ff" font-size="17" font-weight="600" letter-spacing="4">ENGENHARIA • PESQUISA • TECNOLOGIA</text>
+    <text x="78" y="190" fill="#f4f8ff" font-size="68" font-weight="750">Yan Costa</text>
+    <rect x="82" y="216" width="520" height="4" rx="2" fill="url(#accent)"/>
+    <text x="82" y="263" fill="#c6d4ea" font-size="24">IA · Dados · Automação · Sistemas Inteligentes</text>
+    <text x="82" y="302" fill="#7f91ad" font-size="16">Ciência transformada em soluções para problemas reais.</text>
+    <text x="930" y="185" fill="#dffbff" font-size="18" font-weight="700">AI</text>
+    <text x="1077" y="210" fill="#9cf5cf" font-size="13">DATA</text>
+    <text x="1038" y="88" fill="#b9b0ff" font-size="13">∑ f(x)</text>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="54" viewBox="0 0 1200 54" role="img" aria-label="Separador em forma de rede neural">
+  <defs><linearGradient id="g"><stop stop-color="#48d7ff" stop-opacity="0"/><stop offset=".25" stop-color="#48d7ff"/><stop offset=".55" stop-color="#8b7cff"/><stop offset=".8" stop-color="#48e6a8"/><stop offset="1" stop-color="#48e6a8" stop-opacity="0"/></linearGradient></defs>
+  <path d="M0 27h330l28-17 38 34 42-24 32 7h244l30-18 42 36 43-25 32 7h339" fill="none" stroke="url(#g)" stroke-width="2"/>
+  <g fill="#101a3d" stroke="#69e3ff" stroke-width="2"><circle cx="358" cy="10" r="5"/><circle cx="396" cy="44" r="5"/><circle cx="438" cy="20" r="5"/><circle cx="744" cy="9" r="5"/><circle cx="786" cy="45" r="5"/><circle cx="829" cy="20" r="5"/></g>
+</svg>
