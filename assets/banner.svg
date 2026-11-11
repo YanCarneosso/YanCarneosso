@@ -24,11 +24,11 @@
     <circle cx="1065" cy="93" r="8"/><circle cx="1119" cy="201" r="10"/><circle cx="1027" cy="266" r="9"/><circle cx="906" cy="240" r="7"/>
   </g>
   <g font-family="Segoe UI,Arial,sans-serif">
-    <text x="82" y="105" fill="#72e3ff" font-size="17" font-weight="600" letter-spacing="4">ENGENHARIA • PESQUISA • TECNOLOGIA</text>
+    <text x="82" y="105" fill="#72e3ff" font-size="17" font-weight="600" letter-spacing="4">AI ENGINEERING • PESQUISA • DADOS</text>
     <text x="78" y="190" fill="#f4f8ff" font-size="68" font-weight="750">Yan Costa</text>
     <rect x="82" y="216" width="520" height="4" rx="2" fill="url(#accent)"/>
-    <text x="82" y="263" fill="#c6d4ea" font-size="24">IA · Dados · Automação · Sistemas Inteligentes</text>
-    <text x="82" y="302" fill="#7f91ad" font-size="16">Ciência transformada em soluções para problemas reais.</text>
+    <text x="82" y="263" fill="#c6d4ea" font-size="24">LLMs · RAG · Agentes de IA · Engenharia de Dados</text>
+    <text x="82" y="302" fill="#7f91ad" font-size="16">Sistemas de IA rastreáveis, avaliados e seguros.</text>
     <text x="930" y="185" fill="#dffbff" font-size="18" font-weight="700">AI</text>
     <text x="1077" y="210" fill="#9cf5cf" font-size="13">DATA</text>
     <text x="1038" y="88" fill="#b9b0ff" font-size="13">∑ f(x)</text>

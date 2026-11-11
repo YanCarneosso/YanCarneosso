@@ -1,53 +1,78 @@
 # Configuração do perfil
 
-Use esta checklist antes de publicar. No `README.md`, pesquise por `SEU_` para localizar todos os campos pendentes.
+Guia de manutenção do `README.md`. Os comentários HTML no README indicam cada área editável.
 
-## Dados e links
+**Posicionamento:** AI Engineer (LLMs, RAG, agentes de IA, avaliação e operação), com engenharia de dados e pesquisa como base. Ao incluir conteúdo novo, priorize o que reforça esse posicionamento e mantenha cada afirmação ligada a uma evidência pública (repositório, publicação ou certificado).
 
-- [x] Username do GitHub configurado como `YanCarneosso` (inclusive nas URLs da animação).
-- [x] LinkedIn configurado como `yan-costa-carneosso-b1343721b`.
-- [x] E-mail configurado como `yancarneosso@gmail.com`.
-- [ ] `SEU_ORCID` → URL pública do ORCID.
-- [ ] `SEU_LATTES` → URL pública do Currículo Lattes.
-- [ ] `SEU_PORTFOLIO` → URL do portfólio.
-- [ ] Adicionar links institucionais da UNILA/UFLA se desejar.
+## Estrutura do README
 
-## Projetos
+| Seção | Conteúdo | Fonte dos dados |
+|---|---|---|
+| Cabeçalho | Banner, headline, apresentação, contatos e navegação | LinkedIn |
+| Sobre | Foco em AI Engineering, atuação atual, formação e resumo em tabela | LinkedIn |
+| Como construo sistemas de IA | 5 princípios de engenharia, cada um com link para o projeto que o demonstra | Repositórios |
+| Competências | Áreas de AI Engineering, práticas e ferramentas comprovadas nos projetos | Repositórios e LinkedIn |
+| Projetos em destaque | 4 cards com mini-banner (repositórios públicos com CI verde) | GitHub |
+| Mais projetos | Tabela com os demais repositórios e projetos em desenvolvimento | GitHub |
+| Pesquisa e publicações | 3 linhas de pesquisa e lista de publicações por ano | LinkedIn (Publicações) |
+| Trajetória | Experiência e formação | LinkedIn |
+| Certificações e reconhecimentos | Certificados e menções honrosas | LinkedIn |
+| Contribuições | Animação gerada pelo workflow `snake.yml` | GitHub Actions |
 
-- [ ] `SEU_REPOSITORIO_VAULT_MIND` e `SEU_VAULT_MIND_DEMO`.
-- [ ] `SEU_REPOSITORIO_LEGAL_AI` e `SEU_LEGAL_AI_ARTIGO`.
-- [ ] `SEU_REPOSITORIO_DEFI` e `SEU_DEFI_ARTIGO_DEMO`.
-- [x] Repositório de fraudes: `YanCarneosso/fraud-detection-ml`.
-- [ ] `SEU_FRAUDES_DEMO`.
-- [ ] `SEU_REPOSITORIO_HIDROGENIO` e `SEU_HIDROGENIO_ARTIGO`.
-- [ ] `SEU_REPOSITORIO_DADOS` e `SEU_DADOS_DEMO`.
+## Pendências
 
-Se algum material ainda não for público, substitua o link por texto simples como `Repositório privado` ou `Documentação em preparação`. Não publique um placeholder como se fosse uma URL final.
+- [ ] ORCID: descomentar o badge no cabeçalho e trocar o `href` pela URL pública.
+- [ ] Currículo Lattes: descomentar o badge no cabeçalho e trocar o `href` pela URL pública.
+- [ ] Coautores e DOI das publicações, quando houver.
+- [ ] Links das publicações do XXXV CPG – UFLA (2026), quando os anais forem publicados.
+- [ ] Repositório do Vault Mind, quando for público (adicionar o link na tabela "Mais projetos").
+- [ ] Corrigir o CI do `fraud-detection-ml` (workflows "Qualidade do código" e "Publicar relatório no GitHub Pages" falhando desde 28/07/2026). Ele saiu dos destaques, mas continua linkado em "Como construo sistemas de IA" e em "Mais projetos".
 
-## Manutenção
+## Como atualizar
 
-1. Edite textos e links diretamente no `README.md`; os comentários HTML indicam cada área.
-2. Atualize `assets/banner.svg` e os mini-banners somente se o nome ou a identidade visual mudar.
-3. Para um novo projeto, duplique uma célula da tabela e crie um SVG em `assets/projects/`.
-4. Revise a linha `Última atualização` no rodapé após mudanças importantes.
-5. Valide os links na aba **Preview** do GitHub antes de confirmar o commit.
+### Novo projeto em destaque
 
-## Ativação da animação de contribuições
+1. Crie um mini-banner em `assets/projects/` com 720 × 260 px, seguindo o padrão dos existentes (fundo em gradiente escuro, rótulo em maiúsculas, título de 34–38 px, ícone à direita a partir de x ≈ 470).
+2. Copie um bloco `<td>` da seção "Projetos em destaque" e mantenha a grade com número par de cards.
+3. Prefira repositórios públicos com CI passando: quem visita o perfil clica no repositório.
 
-1. Publique este repositório com o mesmo nome do seu username do GitHub.
-2. Em **Settings → Actions → General → Workflow permissions**, permita leitura e escrita.
-3. Abra **Actions → Generate contribution snake → Run workflow**.
-4. Confirme que a branch `output` e os dois SVGs foram criados.
-5. O workflow roda diariamente às 03:23 UTC e também permite execução manual.
+### Nova publicação
 
-O workflow usa apenas o `GITHUB_TOKEN` temporário fornecido pelo GitHub Actions. Nenhum token pessoal deve ser criado ou salvo.
+Adicione um item no ano correspondente, no formato:
 
-## Verificação final
+```markdown
+- **Título.** *Evento ou periódico*, mês ano. `Área` · [Acessar](URL)
+```
 
-- [ ] Todos os placeholders `SEU_` foram removidos ou explicados.
-- [ ] Links profissionais abrem corretamente.
-- [ ] Links de repositórios, artigos e demonstrações estão públicos.
-- [ ] Banner e seis mini-banners aparecem no preview.
-- [ ] Cards de estatísticas mostram o username correto.
-- [ ] A animação funciona nos temas claro e escuro.
+Atualize também a contagem de trabalhos acadêmicos na tabela da seção "Sobre".
+
+### Revisão periódica
+
+1. Atualize experiência, certificações e publicações sempre que o LinkedIn mudar.
+2. Revise a linha "Última atualização" no rodapé.
+3. Valide links e imagens na aba **Preview** do GitHub antes de confirmar o commit.
+
+## Assets
+
+| Arquivo | Uso |
+|---|---|
+| `assets/banner.svg` | Cabeçalho |
+| `assets/dividers/neural-divider.svg` | Separadores entre seções |
+| `assets/projects/atlas-wiki.svg`, `delivery-orchestrator.svg`, `mentoria-ml.svg`, `deepseek-harness.svg` | Projetos em destaque |
+| `assets/projects/legal-ai.svg`, `defi-automation.svg`, `green-hydrogen.svg` | Linhas de pesquisa |
+| `assets/projects/fraud-detection.svg` | Sem uso no momento; volta aos destaques quando o CI do repositório for corrigido |
+| `assets/projects/vault-mind.svg`, `data-engineering.svg`, `assets/github-activity.svg` | Sem uso no momento; reservados para quando houver repositório ou demonstração pública |
+
+Ícones de tecnologia vêm do [devicon](https://devicon.dev) via jsDelivr, e os badges de contato, do [shields.io](https://shields.io). O ícone da AWS do devicon não está disponível pelo CDN, por isso a AWS aparece apenas na tabela de competências.
+
+## Animação de contribuições
+
+O workflow `.github/workflows/snake.yml` roda diariamente às 03:23 UTC (e também manualmente) e publica os SVGs claro e escuro na branch `output`. Ele usa apenas o `GITHUB_TOKEN` temporário do GitHub Actions; nenhum token pessoal deve ser criado ou salvo.
+
+## Verificação antes de publicar
+
+- [ ] Nenhum link de placeholder ativo no README.
+- [ ] Links profissionais, de repositórios e de publicações abrem corretamente.
+- [ ] Banner, mini-banners e ícones aparecem no Preview.
+- [ ] A animação de contribuições funciona nos temas claro e escuro.
 - [ ] Nenhum dado pessoal sensível foi incluído.
