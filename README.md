@@ -1,64 +1,99 @@
 <!--
   README DO PERFIL — YanCarneosso
   Posicionamento: AI Engineer (LLMs, RAG, agentes, avaliação e operação).
+  Imagens: geradas por identidade-visual/generate.py, com versões clara e escura.
   Guia de manutenção: PROFILE_CONFIG.md
-  Pendências: ORCID e Lattes (badges comentados abaixo) e coautores das publicações.
 -->
 
-<p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Yan Costa — AI Engineering: LLMs, RAG, agentes de IA e engenharia de dados">
-</p>
-
-<h3 align="center">AI Engineer · LLMs · RAG · Agentes de IA · AWS · Engenharia de Dados</h3>
-
-<p align="center">
-  Construo sistemas de IA generativa orientados à produção: RAG que cita as fontes, agentes com guardrails,<br>
-  avaliação com métricas e infraestrutura serverless. Engenheiro Físico (UNILA) e mestrando em IA (UFLA).
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/header-dark.svg">
+  <img src="./assets/brand/header-light.svg" width="100%" alt="Yan Costa Carneosso — AI Engineer. LLMs, RAG, agentes de IA e engenharia de dados. MSc em IA na UFLA, Engenharia de Dados na GaussFleet, Engenharia Física pela UNILA.">
+</picture>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/yan-costa-carneosso-b1343721b/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:yancarneosso@gmail.com"><img alt="E-mail" src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <!-- ORCID: descomente e troque o href pela URL pública.
-  <a href="https://orcid.org/0000-0000-0000-0000"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"></a>
-  -->
-  <!-- LATTES: descomente e troque o href pela URL pública.
-  <a href="http://lattes.cnpq.br/0000000000000000"><img alt="Currículo Lattes" src="https://img.shields.io/badge/Lattes-2456A6?style=for-the-badge"></a>
-  -->
+  <a href="https://www.linkedin.com/in/yan-costa-carneosso-b1343721b/"><strong>LinkedIn</strong></a>
+  &nbsp;·&nbsp;
+  <a href="mailto:yancarneosso@gmail.com"><strong>E-mail</strong></a>
+  &nbsp;·&nbsp;
+  <a href="#projetos-em-destaque"><strong>Projetos</strong></a>
+  &nbsp;·&nbsp;
+  <a href="#publicações-acadêmicas"><strong>Publicações</strong></a>
+  <!-- ORCID e Lattes: adicionar aqui quando houver URL pública. -->
 </p>
-
-<p align="center">
-  <a href="#sobre">Sobre</a> ·
-  <a href="#como-construo-sistemas-de-ia">Abordagem</a> ·
-  <a href="#competências">Competências</a> ·
-  <a href="#projetos-em-destaque">Projetos</a> ·
-  <a href="#pesquisa-e-publicações">Pesquisa e publicações</a> ·
-  <a href="#trajetória">Trajetória</a> ·
-  <a href="#certificações-e-reconhecimentos">Certificações</a>
-</p>
-
-<p align="center"><img src="./assets/dividers/neural-divider.svg" width="100%" alt="" role="presentation"></p>
 
 ## Sobre
 
-Meu foco é **AI Engineering**: levar modelos de linguagem e de machine learning do protótipo a sistemas confiáveis. Nos meus projetos, isso significa respostas fundamentadas em fontes, LLMs operando dentro de contratos e regras determinísticas, avaliação com métricas antes de qualquer conclusão e infraestrutura com testes, CI e decisões documentadas.
+**AI Engineer** com formação em Engenharia Física e mestrado em andamento em Inteligência Artificial. Desenvolvo aplicações de IA generativa, como sistemas RAG, agentes e workflows com LLMs, com foco em confiabilidade: respostas rastreáveis, avaliação orientada por métricas, segurança e infraestrutura como código.
 
-Trabalho com **engenharia de dados na GaussFleet**, onde desenvolvo pipelines, integrações, APIs e dashboards com Python, PHP, SQL e Power BI, a base de dados de que todo sistema de IA depende. Participo do **University Mentoring Program (B4U) da Bayer** e, no mestrado na **UFLA**, integro o grupo de pesquisa em Inteligência Artificial e Automação (AIA), onde pesquiso aprendizado de máquina e agentes de IA para apoio a decisões jurídico-administrativas. A formação em Engenharia Física me deu a base em modelagem matemática, métodos numéricos e método experimental que aplico ao avaliar sistemas de IA.
+Atuo em Engenharia de Dados na **GaussFleet**, com pipelines, integrações, APIs e indicadores em Python, SQL e Power BI. Em paralelo, curso o **Mestrado em Engenharia de Sistemas e Automação na UFLA**, onde integro o grupo de pesquisa em Inteligência Artificial e Automação (AIA) e pesquiso agentes de IA e aprendizado de máquina para apoio a decisões jurídico-administrativas. Também participo do **University Mentoring Program (B4U) da Bayer**.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/metrics-dark.svg">
+  <img src="./assets/brand/metrics-light.svg" width="100%" alt="Destaques: 4 projetos de IA com CI, mais de 100 testes automatizados, 12 ADRs de arquitetura e 10 trabalhos acadêmicos.">
+</picture>
+
+## Projetos em destaque
+
+<!-- PROJETOS: capas geradas por identidade-visual/generate.py. Mantenha número par de cards. -->
 <table>
   <tr>
-    <td>🎯 Foco: AI Engineering — LLMs, RAG e agentes</td>
-    <td>🎓 Mestrado em IA aplicada — UFLA (previsão: dez. 2027)</td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/YanCarneosso/aws-intelligent-corporate-wiki">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/atlas-dark.svg">
+          <img src="./assets/projects/atlas-light.svg" width="100%" alt="Atlas — RAG na AWS. 41 testes, 5 ADRs e CI.">
+        </picture>
+      </a>
+      <p>Plataforma RAG que transforma PDFs, documentos escaneados e dados de CRM em conhecimento pesquisável. Cada resposta cita a fonte (página do PDF ou linha do CSV) e, sem evidência suficiente, o sistema se abstém.</p>
+      <p><sub>Python · TypeScript · React · Amazon Bedrock · Textract · Step Functions · AWS CDK</sub></p>
+      <p><a href="https://github.com/YanCarneosso/aws-intelligent-corporate-wiki"><strong>Ver projeto →</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/YanCarneosso/intelligent-delivery-orchestrator">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/delivery-orchestrator-dark.svg">
+          <img src="./assets/projects/delivery-orchestrator-light.svg" width="100%" alt="Delivery Orchestrator — LLM em workflow serverless. Mais de 40 testes, 7 ADRs e CI.">
+        </picture>
+      </a>
+      <p>Orquestração serverless de pedidos com IA generativa: o LLM interpreta pedidos em linguagem natural, enquanto pagamento, idempotência e auditoria permanecem determinísticos. Inclui defesa contra <em>prompt injection</em> e demo local sem conta AWS.</p>
+      <p><sub>Python · AWS SAM · Step Functions · Amazon Bedrock · DynamoDB · CloudWatch</sub></p>
+      <p><a href="https://github.com/YanCarneosso/intelligent-delivery-orchestrator"><strong>Ver projeto →</strong></a></p>
+    </td>
   </tr>
   <tr>
-    <td>💼 Engenharia de Dados — GaussFleet</td>
-    <td>📄 10 trabalhos acadêmicos publicados ou apresentados (2023–2026)</td>
-  </tr>
-  <tr>
-    <td>🌎 Português · Espanhol · Inglês em desenvolvimento</td>
-    <td>🏅 2 menções honrosas: pesquisa e extensão</td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/YanCarneosso/mentoria-ml">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/mentoria-ml-dark.svg">
+          <img src="./assets/projects/mentoria-ml-light.svg" width="100%" alt="MentorIA ML — RAG local com avaliação. 24 casos avaliados, 16 testes e CI.">
+        </picture>
+      </a>
+      <p>Tutor de Machine Learning com RAG local, que adapta a explicação ao nível do estudante e mostra as fontes. Na avaliação com 24 casos, atingiu 100% de recuperação das fontes esperadas e de recusas corretas.</p>
+      <p><sub>Python · Streamlit · Ollama · scikit-learn · pydantic</sub></p>
+      <p><a href="https://github.com/YanCarneosso/mentoria-ml"><strong>Ver projeto →</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/YanCarneosso/deepseek-harness-desktop">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/deepseek-harness-dark.svg">
+          <img src="./assets/projects/deepseek-harness-light.svg" width="100%" alt="DeepSeek Harness Desktop — agente de código no desktop e no VS Code. Agent Client Protocol e CI.">
+        </picture>
+      </a>
+      <p>Integração desktop não oficial de um agente de programação para Linux: janela de aplicativo própria e chat no VS Code via Agent Client Protocol, com chamadas de ferramentas, diffs e pedidos de permissão.</p>
+      <p><sub>JavaScript · Node.js · Bash · VS Code Extension API</sub></p>
+      <p><a href="https://github.com/YanCarneosso/deepseek-harness-desktop"><strong>Ver projeto →</strong></a></p>
+    </td>
   </tr>
 </table>
+
+### Mais projetos
+
+| Projeto | Descrição | Stack |
+|---|---|---|
+| [**Detecção de Fraudes com ML**](https://github.com/YanCarneosso/fraud-detection-ml) | ML de ponta a ponta em dados extremamente desbalanceados: recall de 85% e PR-AUC de 0,84 no teste, threshold escolhido por custo de negócio e explicabilidade com SHAP · [relatório executivo](https://yancarneosso.github.io/fraud-detection-ml/) | scikit-learn · XGBoost · SHAP |
+| [**Análise de Feedbacks com IA**](https://github.com/YanCarneosso/desafio-dio-analise-feedbacks-ia) | Prompt reutilizável que transforma feedbacks de estudantes em indicadores, prioridades e ações, com regras contra alucinação e revisão humana obrigatória | Engenharia de prompts |
+| [**Desenvolvimento de Modelos de ML**](https://github.com/YanCarneosso/caderno-desenvolvimento-modelos-machine-learning) | Caderno de estudo sobre o ciclo de vida de modelos de ML, construído a partir de 20 artigos científicos, com experimentos auditáveis | NotebookLM · Jupyter |
+| **Vault Mind** · *em desenvolvimento* | Agente cognitivo local que registra conversas, indexa notas e recupera contexto por uma API de memória persistente | Python · FastAPI · Ollama · LanceDB |
 
 ## Como construo sistemas de IA
 
@@ -83,123 +118,17 @@ Trabalho com **engenharia de dados na GaussFleet**, onde desenvolvo pipelines, i
 | **Engenharia de dados** | Pipelines, ETL, integração via APIs, qualidade de dados e BI | Python · PHP · SQL · SQL Server · Power BI · DAX |
 | **Engenharia de software** | Testes automatizados, tipagem estática, ADRs e documentação | pytest · ruff · mypy · TypeScript · React · Docker · Git · Linux |
 
-<p align="center">
-  <img alt="Python" title="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="38" height="38">&nbsp;&nbsp;
-  <img alt="pandas" title="pandas" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" width="38" height="38">&nbsp;&nbsp;
-  <img alt="NumPy" title="NumPy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" width="38" height="38">&nbsp;&nbsp;
-  <img alt="scikit-learn" title="scikit-learn" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" width="38" height="38">&nbsp;&nbsp;
-  <img alt="Jupyter" title="Jupyter" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" width="38" height="38">&nbsp;&nbsp;
-  <img alt="FastAPI" title="FastAPI" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" width="38" height="38">&nbsp;&nbsp;
-  <img alt="Streamlit" title="Streamlit" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg" width="38" height="38">&nbsp;&nbsp;
-  <img alt="SQL Server" title="SQL Server" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" width="38" height="38">&nbsp;&nbsp;
-  <img alt="TypeScript" title="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="38" height="38">&nbsp;&nbsp;
-  <img alt="React" title="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="38" height="38">&nbsp;&nbsp;
-  <img alt="Docker" title="Docker" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="38" height="38">&nbsp;&nbsp;
-  <img alt="GitHub Actions" title="GitHub Actions" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" width="38" height="38">&nbsp;&nbsp;
-  <img alt="Git" title="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="38" height="38">&nbsp;&nbsp;
-  <img alt="Linux" title="Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="38" height="38">
-</p>
-
-<p align="center"><img src="./assets/dividers/neural-divider.svg" width="100%" alt="" role="presentation"></p>
-
-## Projetos em destaque
-
-<!-- PROJETOS: para trocar um destaque, copie um <td> e crie o mini-banner em assets/projects/ (720 × 260). -->
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/YanCarneosso/aws-intelligent-corporate-wiki"><img src="./assets/projects/atlas-wiki.svg" width="100%" alt="Mini-banner do projeto Atlas, wiki corporativa inteligente"></a>
-      <h3>Atlas — Wiki Corporativa Inteligente na AWS</h3>
-      <p>Plataforma RAG que transforma PDFs, documentos escaneados e dados de CRM em conhecimento pesquisável. Cada resposta cita a fonte (página do PDF ou linha do CSV) e, sem evidência suficiente, o sistema não responde.</p>
-      <ul>
-        <li>Ingestão orquestrada com Step Functions e Textract</li>
-        <li>Bedrock Knowledge Bases, Guardrails e autorização por departamento</li>
-        <li>41 testes, CI, 5 ADRs, modelo de ameaças e modelo de custos</li>
-      </ul>
-      <p><code>Python</code> <code>TypeScript</code> <code>React</code> <code>Amazon Bedrock</code> <code>AWS CDK</code></p>
-      <p><a href="https://github.com/YanCarneosso/aws-intelligent-corporate-wiki"><strong>Ver repositório →</strong></a><br><sub>Ampliação de um desafio da DIO</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/YanCarneosso/intelligent-delivery-orchestrator"><img src="./assets/projects/delivery-orchestrator.svg" width="100%" alt="Mini-banner do projeto Intelligent Delivery Orchestrator"></a>
-      <h3>Intelligent Delivery Orchestrator</h3>
-      <p>Orquestração serverless de pedidos de delivery. O modelo interpreta pedidos em linguagem natural (intenção, sentimento e restrições alimentares); pagamento, idempotência, retries e auditoria permanecem determinísticos no workflow.</p>
-      <ul>
-        <li>Step Functions com <code>Choice</code>, <code>Parallel</code> e retries seletivos</li>
-        <li>Contratos JSON Schema e defesa em profundidade contra <em>prompt injection</em></li>
-        <li>Mais de 40 testes, CI, 7 ADRs, runbook e demo local sem conta AWS</li>
-      </ul>
-      <p><code>Python</code> <code>AWS SAM</code> <code>Step Functions</code> <code>Amazon Bedrock</code> <code>DynamoDB</code></p>
-      <p><a href="https://github.com/YanCarneosso/intelligent-delivery-orchestrator"><strong>Ver repositório →</strong></a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/YanCarneosso/mentoria-ml"><img src="./assets/projects/mentoria-ml.svg" width="100%" alt="Mini-banner do projeto MentorIA ML"></a>
-      <h3>MentorIA ML</h3>
-      <p>Tutor de Machine Learning com RAG local. Adapta a explicação ao nível do estudante, mostra as fontes consultadas e admite quando não tem contexto suficiente.</p>
-      <ul>
-        <li>Recuperação TF-IDF e LLM local via Ollama, com fallback extrativo</li>
-        <li>Guardrails de escopo, contra <em>prompt injection</em> e para URLs geradas</li>
-        <li>Avaliação em 24 casos: 100% de recuperação das fontes e de recusas corretas</li>
-      </ul>
-      <p><code>Python</code> <code>Streamlit</code> <code>Ollama</code> <code>scikit-learn</code> <code>pydantic</code></p>
-      <p><a href="https://github.com/YanCarneosso/mentoria-ml"><strong>Ver repositório →</strong></a><br><sub>Desafio da DIO</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/YanCarneosso/deepseek-harness-desktop"><img src="./assets/projects/deepseek-harness.svg" width="100%" alt="Mini-banner do projeto DeepSeek Harness Desktop"></a>
-      <h3>DeepSeek Harness Desktop</h3>
-      <p>Integração desktop não oficial do DeepSeek Harness (<code>dsh</code>), um agente de programação, para Linux. Leva o agente para uma janela de aplicativo própria e para dentro do VS Code.</p>
-      <ul>
-        <li>Chat no VS Code via Agent Client Protocol: chamadas de ferramentas, diffs e pedidos de permissão</li>
-        <li>Escolha de modelo e de esforço de raciocínio; uma instância isolada por projeto</li>
-        <li>Instalação sem root, versão fixada do <code>dsh</code>, CI e documentação em inglês e português</li>
-      </ul>
-      <p><code>JavaScript</code> <code>Node.js</code> <code>Bash</code> <code>VS Code API</code> <code>ACP</code></p>
-      <p><a href="https://github.com/YanCarneosso/deepseek-harness-desktop"><strong>Ver repositório →</strong></a></p>
-    </td>
-  </tr>
-</table>
-
-### Mais projetos
-
-| Projeto | Descrição | Stack |
-|---|---|---|
-| [**Detecção de Fraudes com ML**](https://github.com/YanCarneosso/fraud-detection-ml) | ML de ponta a ponta em dados extremamente desbalanceados: pipeline sem *data leakage*, threshold escolhido por custo de negócio e explicabilidade com SHAP | scikit-learn · XGBoost · SHAP |
-| [**Análise de Feedbacks com IA**](https://github.com/YanCarneosso/desafio-dio-analise-feedbacks-ia) | Prompt reutilizável que transforma feedbacks de estudantes em indicadores, prioridades e ações, com regras contra alucinação e revisão humana obrigatória | Engenharia de prompts |
-| [**Desenvolvimento de Modelos de ML**](https://github.com/YanCarneosso/caderno-desenvolvimento-modelos-machine-learning) | Caderno de estudo sobre o ciclo de vida de modelos de ML, construído a partir de 20 artigos científicos, com experimentos auditáveis | NotebookLM · Jupyter |
-| **Vault Mind** · *em desenvolvimento* | Agente cognitivo local que registra conversas, indexa notas e recupera contexto por uma API de memória persistente | Python · FastAPI · Ollama · LanceDB |
-
-<p align="center"><img src="./assets/dividers/neural-divider.svg" width="100%" alt="" role="presentation"></p>
-
 ## Pesquisa e publicações
 
 Minha pesquisa atual é em IA aplicada: agentes, modelos de linguagem e aprendizado de máquina para apoio à decisão. Antes, pesquisei otimização, finanças descentralizadas e hidrogênio verde.
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <img src="./assets/projects/legal-ai.svg" width="100%" alt="Mini-banner da pesquisa em IA jurídica">
-      <h4>IA aplicada ao direito administrativo</h4>
-      <p><sub>Mestrado · UFLA · em andamento</sub></p>
-      <p>Classificação de documentos e agentes de apoio à decisão para selecionar instrumentos jurídico-administrativos e conduzir atos regidos pela Lei nº 8.112.</p>
-      <p><code>ML</code> <code>Multiagentes</code> <code>NLP</code></p>
-    </td>
-    <td width="33%" valign="top">
-      <img src="./assets/projects/defi-automation.svg" width="100%" alt="Mini-banner da pesquisa em automação financeira em DeFi">
-      <h4>Automação financeira em DeFi</h4>
-      <p><sub>TCC · UNILA · 2025</sub></p>
-      <p>Análise quantitativa de séries financeiras, backtesting com SMA, EMA e LSMA, drawdown, livro de ordens e integração com DEX.</p>
-      <p><a href="https://dspace.unila.edu.br/items/07b3d683-3e43-4344-8d5b-bfdb95f52402">Ler o trabalho →</a></p>
-    </td>
-    <td width="33%" valign="top">
-      <img src="./assets/projects/green-hydrogen.svg" width="100%" alt="Mini-banner da pesquisa em hidrogênio verde">
-      <h4>Hidrogênio verde</h4>
-      <p><sub>Iniciação científica · UNILA · 2022–2023</sub></p>
-      <p>Ligas metálicas comerciais como eletrocatalisadores para produzir hidrogênio em líquido iônico, como alternativa à platina. Menção honrosa na 3ª SIEPE.</p>
-      <p><a href="https://eicm.cure.edu.uy/home/evento-2023/presentacion-posters/">Ver no evento →</a></p>
-    </td>
-  </tr>
-</table>
+| Linha de pesquisa | Contexto | Produção |
+|---|---|---|
+| **IA aplicada ao direito administrativo:** classificação de documentos e agentes de apoio à decisão | Mestrado · UFLA · em andamento | 2 trabalhos no XXXV CPG (2026) |
+| **LLMs e agent skills:** efeito de *skills* na geração de esquemáticos CircuitikZ por modelos de linguagem | UFLA · 2026 | 1 trabalho no XXXV CPG (2026) |
+| **Otimização:** ajuste de parâmetros de controladores PI por algoritmo PSO | UFLA · 2026 | 1 trabalho no XXXV CPG (2026) |
+| **Finanças descentralizadas:** análise quantitativa, backtesting e automação de operações em DeFi | TCC · UNILA · 2025 | [Trabalho completo](https://dspace.unila.edu.br/items/07b3d683-3e43-4344-8d5b-bfdb95f52402) |
+| **Hidrogênio verde:** ligas metálicas comerciais como eletrocatalisadores, alternativa à platina | Iniciação científica · UNILA · 2022–2023 | Menção honrosa · [pôster](https://eicm.cure.edu.uy/home/evento-2023/presentacion-posters/) |
 
 ### Publicações acadêmicas
 
@@ -224,8 +153,6 @@ Minha pesquisa atual é em IA aplicada: agentes, modelos de linguagem e aprendiz
 
 - **Ligas metálicas comerciais como eletrocatalisadores para a produção de gás hidrogênio em meio líquido iônico.** *II Encuentro de Investigadores en Ciencia de Materiales*, Uruguai, abr. 2023. `Eletroquímica` `Hidrogênio verde` · [Acessar](https://eicm.cure.edu.uy/home/evento-2023/presentacion-posters/)
 
-<p align="center"><img src="./assets/dividers/neural-divider.svg" width="100%" alt="" role="presentation"></p>
-
 ## Trajetória
 
 ### Experiência
@@ -247,6 +174,8 @@ Minha pesquisa atual é em IA aplicada: agentes, modelos de linguagem e aprendiz
 |---|---|---|
 | mar. 2026 – dez. 2027 (previsão) | **Mestrado em Engenharia de Sistemas e Automação**, ênfase em IA · grupo de pesquisa AIA | UFLA |
 | mar. 2020 – dez. 2025 | **Bacharelado em Engenharia Física** | UNILA |
+
+**Idiomas:** português, espanhol e inglês (em desenvolvimento).
 
 ## Certificações e reconhecimentos
 
@@ -277,26 +206,11 @@ Minha pesquisa atual é em IA aplicada: agentes, modelos de linguagem e aprendiz
   </tr>
 </table>
 
-## Contribuições
-
-<!-- Gerado diariamente pelo workflow .github/workflows/snake.yml na branch output. -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YanCarneosso/YanCarneosso/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YanCarneosso/YanCarneosso/output/github-contribution-grid-snake.svg">
-    <img alt="Animação do gráfico de contribuições do GitHub" src="https://raw.githubusercontent.com/YanCarneosso/YanCarneosso/output/github-contribution-grid-snake.svg">
-  </picture>
-</p>
-
-<p align="center"><img src="./assets/dividers/neural-divider.svg" width="100%" alt="" role="presentation"></p>
+---
 
 <p align="center">
-  <strong>“Transformando conhecimento científico em sistemas capazes de compreender, aprender e agir.”</strong>
+  <sub>
+    Interessado em AI Engineering: LLMs, RAG, agentes e avaliação de modelos.<br>
+    <a href="https://www.linkedin.com/in/yan-costa-carneosso-b1343721b/">LinkedIn</a> · <a href="mailto:yancarneosso@gmail.com">E-mail</a> · Atualizado em novembro de 2026
+  </sub>
 </p>
-
-<p align="center">
-  Interessado em AI Engineering: LLMs, RAG, agentes e avaliação de modelos.<br>
-  Vamos conversar? <a href="https://www.linkedin.com/in/yan-costa-carneosso-b1343721b/">LinkedIn</a> · <a href="mailto:yancarneosso@gmail.com">E-mail</a>
-</p>
-
-<p align="center"><sub>Última atualização: novembro de 2026</sub></p>
